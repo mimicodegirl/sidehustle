@@ -1,0 +1,43 @@
+@image url()<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+ {padding: 0;
+ margin: 0;
+ box-sizing: border-box;}
+
+ body {display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: ;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background:C:\Users\User\Downloads\background image.jpg ;
+width: 100%;
+height :auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    width:90% ;
+    padding: 2rem;
+    border: 2px solid #fff;
+    box-shadow: 2px 8px 10px 1px rgba(red, green, blue, alpha);
+}
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color:rgb(110, 47, 47) ;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#counter-value {
+    font-size: 8rem;
+    padding: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+
+}
